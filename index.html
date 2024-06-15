@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Changer</title>
+    <link rel="stylesheet" href="loco.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -11,6 +12,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div id="minicircle"></div>
+
     <div id="main">
 
         <div id="hero">
@@ -21,16 +25,26 @@
             </div>
 
             <div id="heading">
-                <h1>Product</h1>
+                <div class="bounding">
+                    <h1 class="boundingelem">Product</h1>
+                </div>
                 <div id="blocktext">
-                    <h1 id="second-h1">Designer</h1>
-                    <h5>Based in toronto</h5>
+                    <div class="bounding">
+                        <h1 class="boundingelem" id="second-h1">Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem">Based in toronto</h5>
+                    </div>
                 </div>
             </div>
 
             <div id="miniheadings">
-                <h5>AVAILABLE FOR FREELANCE</h5>
-                <h5>WORK FROM MAY 23'</h5>
+                <div class="bounding">
+                    <h5 class="boundingelem">AVAILABLE FOR FREELANCE</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingelem">WORK FROM MAY 23'</h5>
+                </div>
             </div>
 
             <div id="hero-footer">
@@ -91,6 +105,13 @@
         </div>
 
     </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>
